@@ -1,12 +1,12 @@
 import psycopg2
 
-from entities.Bank import Bank
-from entities.Bank_Atm import BankAtm
-from entities.Bank_Office import BankOffice
-from entities.Credit_Account import CreditAccount
-from entities.Employee import Employee
-from entities.Payment_Account import PaymentAccount
-from entities.User import User
+from service.Bank import Bank
+from service.Bank_Atm import BankAtm
+from service.Bank_Office import BankOffice
+from service.Credit_Account import CreditAccount
+from service.Employee import Employee
+from service.Payment_Account import PaymentAccount
+from service.User import User
 
 connection = psycopg2.connect(
     dbname="postgres",
@@ -30,7 +30,7 @@ bank.create("Sberbank")
 
 bank_office.drop_table()
 bank_office.create_table()
-bank_office.create("office", "ul puskina dom kolotushkina", "working", True, True, True, True, 10.0, 1)
+bank_office.create("office", "aboba street", "working", True, True, True, True, 10.0, 1)
 
 employee.drop_table()
 employee.create_table()
