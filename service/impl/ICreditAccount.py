@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from entity.creditAccountModel import CreditAccountModel
+from models.Credit_Account_Model import CreditAccountModel
 
 
 class ICreditAccount(ABC):

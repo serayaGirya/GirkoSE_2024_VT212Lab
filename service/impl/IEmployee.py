@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from entity.employeeModel import EmployeeModel
+from models.Employee_Model import EmployeeModel
 
 
 class IEmployee(ABC):

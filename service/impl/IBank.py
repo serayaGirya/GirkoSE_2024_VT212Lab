@@ -1,7 +1,7 @@
 import random  # Импортируем модуль random для генерации случайных значений
 from abc import ABC, abstractmethod
 
-from entity.bankModel import Bank_Model
+from models.Bank_Model import BankModel
 
 
 class IBank(ABC):

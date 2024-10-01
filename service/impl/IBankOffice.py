@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from entity.bankOfficeModel import BankOfficeModel
+from models.Bank_Office_Model import BankOfficeModel
 
 
 class IBankOffice(ABC):

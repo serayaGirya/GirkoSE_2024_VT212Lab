@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from entity.paymentAccountModel import PaymentAccountModel
+from models.Payment_Account_Model import PaymentAccountModel
 
 
 class IPaymentAccount(ABC):
